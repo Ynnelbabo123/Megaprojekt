@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1040px){
+    .destinations {
+        flex-basis: 50%;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .feature-box{
+        padding-bottom: 40px;
+    }
+    .feature{
+        flex-basis: 50%;
+    }
+}
+@media only screen and (max-width: 480px){
+    body{
+        font-size: 9px;
+    }
+    .jumbo{
+        padding: 20px;
+    }
+    nav{
+        padding: 30px 30px;
+    }
+    nav-links{
+        margin-right: 0;
+    }
+    .feature{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+
+    }
+    .destinations {
+        flex-basis: 100%;
+    }
+    .card{
+        height: 200px;
+    }
+    form{
+        padding: 20px;
+    }
+}
